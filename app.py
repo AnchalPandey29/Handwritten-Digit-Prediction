@@ -63,7 +63,7 @@ body {
 # ---------------- LOAD MODEL ----------------
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("mnist_cnn_model.h5", compile=False)
+    return tf.keras.models.load_model("mnist_cnn_model.keras")
 
 model = load_model()
 
