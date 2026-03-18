@@ -1,6 +1,9 @@
 streamlit
-tensorflow
+tensorflow==2.15.0
 numpy
+pillow
+plotly
+streamlit-drawable-canvasnumpy
 pillow
 plotly
 streamlit-drawable-canvas
