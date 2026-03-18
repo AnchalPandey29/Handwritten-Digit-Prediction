@@ -8,4 +8,4 @@ pillow
 plotly
 streamlit-drawable-canvas
 matplotlib
-keras
+keras==2.13.1
