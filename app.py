@@ -5,8 +5,6 @@ from PIL import Image
 import plotly.express as px
 from streamlit_drawable_canvas import st_canvas
 
-# Install missing libraries
-!pip install streamlit plotly streamlit-drawable-canvas -qq
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
